@@ -20,6 +20,12 @@
                      android:name="android.accounts.VtuAccountAuth"
                      android:resource="@xml/authenticator"/>
         </service>
+        
+        <provider
+            android:authorities="com.example.admin.vtuapplicatoin.provider"
+            android:name="com.example.admin.vtuapplicatoin.ResultProvider"
+            android:exported="false"
+            android:syncable="true"/>
     </application>
 
 </manifest>

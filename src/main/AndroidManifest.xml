@@ -15,6 +15,11 @@
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
+        <service android:name=".VtuAccountService">
+                 <meta-data
+                     android:name="android.accounts.VtuAccountAuth"
+                     android:resource="@xml/authenticator"/>
+        </service>
     </application>
 
 </manifest>

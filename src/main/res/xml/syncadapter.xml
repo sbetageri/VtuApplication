@@ -5,4 +5,4 @@
               android:supportsUploading="true"
               android:allowParallelSyncs="false"
               android:isAlwaysSyncable="true"
-              android:accountType="vtu.results.ac.in"/>
+              android:accountType="sai.ram"/>

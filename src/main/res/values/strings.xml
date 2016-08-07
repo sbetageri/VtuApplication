@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">VtuApplicatoin</string>
+    <string name="account_type_str">sai.ram</string>
 </resources>

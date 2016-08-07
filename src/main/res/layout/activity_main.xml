@@ -11,7 +11,16 @@
     tools:context="com.example.admin.vtuapplicatoin.MainActivity">
 
     <TextView
-        android:layout_width="wrap_content"
+        android:id="@+id/count_textview"
+        android:textSize="@dimen/activity_text_size"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Hello World!"/>
+
+    <Button
+        android:layout_below="@+id/count_textview"
+        android:textSize="@dimen/activity_text_size"
+        android:onClick="btnGetCount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
 </RelativeLayout>

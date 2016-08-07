@@ -7,6 +7,8 @@ import android.content.Context;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
+import android.view.View;
+import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -39,6 +41,18 @@ public class MainActivity extends AppCompatActivity {
                 Bundle.EMPTY,
                 SYNC_INTERVAL);
         Log.e(_TAG, "after periodic sync");
+    }
+
+    public void btnGetCount(View v) {
+        Bundle bundle = new Bundle();
+        bundle.putBoolean(ContentResolver.SYNC_EXTRAS_EXPEDITED, true);
+        bundle.putBoolean(ContentResolver.SYNC_EXTRAS_MANUAL, true);
+        mResolver.requestSync(mAccount,
+                AUTHORITY,
+                bundle);
+        CountSingleton obj = CountSingleton.getInstance();
+        TextView tv = (TextView)findViewById(R.id.count_textview);
+        tv.setText(obj.count.toString());
     }
 
     public Account createSyncAccount(Context context) {

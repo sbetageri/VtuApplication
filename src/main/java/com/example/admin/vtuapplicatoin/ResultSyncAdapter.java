@@ -31,6 +31,8 @@ public class ResultSyncAdapter extends AbstractThreadedSyncAdapter {
                               String authority,
                               ContentProviderClient provider,
                               SyncResult syncResult) {
+        CountSingleton obj = CountSingleton.getInstance();
+        obj.count += 1;
         Log.e(_TAG, " performing sync in the result adapter");
     }
 }

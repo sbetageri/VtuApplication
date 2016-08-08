@@ -40,6 +40,7 @@ public class MainActivity extends AppCompatActivity {
                 AUTHORITY,
                 Bundle.EMPTY,
                 SYNC_INTERVAL);
+        ContentResolver.setSyncAutomatically(mAccount, AUTHORITY, true);
         Log.e(_TAG, "after periodic sync");
     }
 

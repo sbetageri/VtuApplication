@@ -51,9 +51,6 @@ public class MainActivity extends AppCompatActivity {
         mResolver.requestSync(mAccount,
                 AUTHORITY,
                 bundle);
-        CountSingleton obj = CountSingleton.getInstance();
-        TextView tv = (TextView)findViewById(R.id.count_textview);
-        tv.setText(obj.count.toString());
     }
 
     public Account createSyncAccount(Context context) {

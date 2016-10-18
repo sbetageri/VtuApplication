@@ -1,0 +1,119 @@
+-- Merging decision tree log ---
+manifest
+ADDED from F:\progs\Droid_Comp\VtuApplicatoin\app\src\main\AndroidManifest.xml:2:1-51:12
+	package
+		ADDED from F:\progs\Droid_Comp\VtuApplicatoin\app\src\main\AndroidManifest.xml:3:11-53
+		INJECTED from F:\progs\Droid_Comp\VtuApplicatoin\app\src\main\AndroidManifest.xml
+		INJECTED from F:\progs\Droid_Comp\VtuApplicatoin\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from F:\progs\Droid_Comp\VtuApplicatoin\app\src\main\AndroidManifest.xml
+		INJECTED from F:\progs\Droid_Comp\VtuApplicatoin\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from F:\progs\Droid_Comp\VtuApplicatoin\app\src\main\AndroidManifest.xml:2:11-69
+	android:versionCode
+		INJECTED from F:\progs\Droid_Comp\VtuApplicatoin\app\src\main\AndroidManifest.xml
+		INJECTED from F:\progs\Droid_Comp\VtuApplicatoin\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.AUTHENTICATE_ACCOUNTS
+ADDED from F:\progs\Droid_Comp\VtuApplicatoin\app\src\main\AndroidManifest.xml:5:5-79
+	android:name
+		ADDED from F:\progs\Droid_Comp\VtuApplicatoin\app\src\main\AndroidManifest.xml:5:22-77
+uses-permission#android.permission.GET_ACCOUNTS
+ADDED from F:\progs\Droid_Comp\VtuApplicatoin\app\src\main\AndroidManifest.xml:6:5-70
+	android:name
+		ADDED from F:\progs\Droid_Comp\VtuApplicatoin\app\src\main\AndroidManifest.xml:6:22-68
+uses-permission#android.permission.INTERNET
+ADDED from F:\progs\Droid_Comp\VtuApplicatoin\app\src\main\AndroidManifest.xml:7:5-66
+	android:name
+		ADDED from F:\progs\Droid_Comp\VtuApplicatoin\app\src\main\AndroidManifest.xml:7:22-64
+uses-permission#android.permission.READ_SYNC_SETTINGS
+ADDED from F:\progs\Droid_Comp\VtuApplicatoin\app\src\main\AndroidManifest.xml:8:5-76
+	android:name
+		ADDED from F:\progs\Droid_Comp\VtuApplicatoin\app\src\main\AndroidManifest.xml:8:22-74
+uses-permission#android.permission.WRITE_SYNC_SETTINGS
+ADDED from F:\progs\Droid_Comp\VtuApplicatoin\app\src\main\AndroidManifest.xml:9:5-77
+	android:name
+		ADDED from F:\progs\Droid_Comp\VtuApplicatoin\app\src\main\AndroidManifest.xml:9:22-75
+application
+ADDED from F:\progs\Droid_Comp\VtuApplicatoin\app\src\main\AndroidManifest.xml:11:5-49:19
+MERGED from [com.android.support:appcompat-v7:23.0.1] F:\progs\Droid_Comp\VtuApplicatoin\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.0.1\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.0.1] F:\progs\Droid_Comp\VtuApplicatoin\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.1\AndroidManifest.xml:22:5-20
+	android:label
+		ADDED from F:\progs\Droid_Comp\VtuApplicatoin\app\src\main\AndroidManifest.xml:14:9-41
+	android:supportsRtl
+		ADDED from F:\progs\Droid_Comp\VtuApplicatoin\app\src\main\AndroidManifest.xml:15:9-35
+	android:allowBackup
+		ADDED from F:\progs\Droid_Comp\VtuApplicatoin\app\src\main\AndroidManifest.xml:12:9-35
+	android:icon
+		ADDED from F:\progs\Droid_Comp\VtuApplicatoin\app\src\main\AndroidManifest.xml:13:9-43
+	android:theme
+		ADDED from F:\progs\Droid_Comp\VtuApplicatoin\app\src\main\AndroidManifest.xml:16:9-40
+activity#com.example.admin.vtuapplicatoin.MainActivity
+ADDED from F:\progs\Droid_Comp\VtuApplicatoin\app\src\main\AndroidManifest.xml:17:9-23:20
+	android:name
+		ADDED from F:\progs\Droid_Comp\VtuApplicatoin\app\src\main\AndroidManifest.xml:17:19-47
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from F:\progs\Droid_Comp\VtuApplicatoin\app\src\main\AndroidManifest.xml:18:13-22:29
+action#android.intent.action.MAIN
+ADDED from F:\progs\Droid_Comp\VtuApplicatoin\app\src\main\AndroidManifest.xml:19:17-68
+	android:name
+		ADDED from F:\progs\Droid_Comp\VtuApplicatoin\app\src\main\AndroidManifest.xml:19:25-66
+category#android.intent.category.LAUNCHER
+ADDED from F:\progs\Droid_Comp\VtuApplicatoin\app\src\main\AndroidManifest.xml:21:17-76
+	android:name
+		ADDED from F:\progs\Droid_Comp\VtuApplicatoin\app\src\main\AndroidManifest.xml:21:27-74
+service#com.example.admin.vtuapplicatoin.VtuAccountService
+ADDED from F:\progs\Droid_Comp\VtuApplicatoin\app\src\main\AndroidManifest.xml:24:9-31:19
+	android:name
+		ADDED from F:\progs\Droid_Comp\VtuApplicatoin\app\src\main\AndroidManifest.xml:24:18-51
+intent-filter#android.accounts.AccountAuthenticator
+ADDED from F:\progs\Droid_Comp\VtuApplicatoin\app\src\main\AndroidManifest.xml:25:13-27:29
+action#android.accounts.AccountAuthenticator
+ADDED from F:\progs\Droid_Comp\VtuApplicatoin\app\src\main\AndroidManifest.xml:26:17-80
+	android:name
+		ADDED from F:\progs\Droid_Comp\VtuApplicatoin\app\src\main\AndroidManifest.xml:26:25-77
+meta-data#android.accounts.AccountAuthenticator
+ADDED from F:\progs\Droid_Comp\VtuApplicatoin\app\src\main\AndroidManifest.xml:28:13-30:61
+	android:resource
+		ADDED from F:\progs\Droid_Comp\VtuApplicatoin\app\src\main\AndroidManifest.xml:30:22-59
+	android:name
+		ADDED from F:\progs\Droid_Comp\VtuApplicatoin\app\src\main\AndroidManifest.xml:29:22-74
+service#com.example.admin.vtuapplicatoin.ResultSyncAdapterService
+ADDED from F:\progs\Droid_Comp\VtuApplicatoin\app\src\main\AndroidManifest.xml:33:9-42:19
+	android:process
+		ADDED from F:\progs\Droid_Comp\VtuApplicatoin\app\src\main\AndroidManifest.xml:35:18-41
+	android:exported
+		ADDED from F:\progs\Droid_Comp\VtuApplicatoin\app\src\main\AndroidManifest.xml:34:18-42
+	android:name
+		ADDED from F:\progs\Droid_Comp\VtuApplicatoin\app\src\main\AndroidManifest.xml:33:18-58
+intent-filter#android.content.SyncAdapter
+ADDED from F:\progs\Droid_Comp\VtuApplicatoin\app\src\main\AndroidManifest.xml:36:13-38:29
+action#android.content.SyncAdapter
+ADDED from F:\progs\Droid_Comp\VtuApplicatoin\app\src\main\AndroidManifest.xml:37:17-70
+	android:name
+		ADDED from F:\progs\Droid_Comp\VtuApplicatoin\app\src\main\AndroidManifest.xml:37:25-67
+meta-data#android.content.SyncAdapter
+ADDED from F:\progs\Droid_Comp\VtuApplicatoin\app\src\main\AndroidManifest.xml:39:13-41:54
+	android:resource
+		ADDED from F:\progs\Droid_Comp\VtuApplicatoin\app\src\main\AndroidManifest.xml:41:17-52
+	android:name
+		ADDED from F:\progs\Droid_Comp\VtuApplicatoin\app\src\main\AndroidManifest.xml:40:17-59
+provider#com.example.admin.vtuapplicatoin.ResultProvider
+ADDED from F:\progs\Droid_Comp\VtuApplicatoin\app\src\main\AndroidManifest.xml:44:9-48:38
+	android:authorities
+		ADDED from F:\progs\Droid_Comp\VtuApplicatoin\app\src\main\AndroidManifest.xml:45:13-76
+	android:syncable
+		ADDED from F:\progs\Droid_Comp\VtuApplicatoin\app\src\main\AndroidManifest.xml:48:13-36
+	android:exported
+		ADDED from F:\progs\Droid_Comp\VtuApplicatoin\app\src\main\AndroidManifest.xml:47:13-37
+	android:name
+		ADDED from F:\progs\Droid_Comp\VtuApplicatoin\app\src\main\AndroidManifest.xml:46:13-75
+uses-sdk
+INJECTED from F:\progs\Droid_Comp\VtuApplicatoin\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support:appcompat-v7:23.0.1] F:\progs\Droid_Comp\VtuApplicatoin\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.0.1\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.0.1] F:\progs\Droid_Comp\VtuApplicatoin\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.1\AndroidManifest.xml:20:5-43
+	android:targetSdkVersion
+		INJECTED from F:\progs\Droid_Comp\VtuApplicatoin\app\src\main\AndroidManifest.xml
+		INJECTED from F:\progs\Droid_Comp\VtuApplicatoin\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from F:\progs\Droid_Comp\VtuApplicatoin\app\src\main\AndroidManifest.xml
+		INJECTED from F:\progs\Droid_Comp\VtuApplicatoin\app\src\main\AndroidManifest.xml
